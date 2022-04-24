@@ -1,0 +1,31 @@
+*{box-sizing: border-box;}
+body {
+  margin: 0;
+}
+.menu {
+  width: 150px; height: 100vh;
+  border: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  flex-direction: column;
+}
+.menu > .list:hover {
+  cursor: pointer;
+  font-size: 1.1em;
+}
+.list {
+  margin: 20px;
+}
+.content {
+  height: 820px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  margin-left: 150px;
+  justify-content: center;
+  align-items: center;
+}
